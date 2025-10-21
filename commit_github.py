@@ -13,7 +13,7 @@ import os
 import traceback
 import requests
 from requests_oauth2 import OAuth2BearerToken
-from platform_api_caller import GitHub_API_Caller
+# from platform_api_caller import GitHub_API_Caller
 
 from lib import create_file_if_not_exists, find_files_keyword_in_dir
 from config import NVD_API_DATA_PATH, GITHUB_VFC_DIR
