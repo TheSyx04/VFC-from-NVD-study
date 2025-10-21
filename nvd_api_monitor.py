@@ -4,7 +4,7 @@ import csv
 import os
 import time
 import requests, config
-import json, curl,datetime
+import json, datetime
 from datetime import datetime, timedelta
 from commit_github import crawl_diff as github_crawl
 from commit_gitlab import crawl_commit as gitlab_crawl
