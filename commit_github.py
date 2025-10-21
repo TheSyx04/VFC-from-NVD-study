@@ -4,7 +4,8 @@ from os import execlp, removedirs
 import signal
 import sys
 import urllib.request
-from lib import DatabaseConnection, calculate_2month_period, check_if_commit_exist, check_if_keyword_exist_in_file, exit_search_git_repo, get_cwe_by_cve_json, get_keyword_by_cwe, get_repo_by_cpe_product_name, load_jsonl, make_exit_handler, output_json
+from lib import DatabaseConnection, check_if_commit_exist
+# check_if_keyword_exist_in_file, exit_search_git_repo, get_cwe_by_cve_json, get_keyword_by_cwe, get_repo_by_cpe_product_name, load_jsonl, make_exit_handler, output_json
 
 import re
 import time
